@@ -1,13 +1,37 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+//import Ref from './hooks/Ref';
+//import FormikLogin from './formikLogin/FormikLogin';
+import BootstrapUI from './Designs/BootstrapUI';
+import 'bootstrap/dist/css/bootstrap.min.css';
+ 
+
+
+ 
+ 
+
 import reportWebVitals from './reportWebVitals';
+import App from './Routes/App';
+ 
+ 
+ 
+
+//import App from './fcomponents/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Nofify/> */}
+    <App/>
+    {/* <Ref/> */}
+    {/* <App/> */}
+    {/* <FormikLogin/> */}
+    {/* <MaterialUI/> */}
+    {/* <BootstrapUI/> */}
+   {/* <SemanticUI/> */}
+    {/* <App/> */}
+     {/* <Todo/> */}
+    {/* <Form/> */}
   </React.StrictMode>
 );
 
