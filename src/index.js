@@ -1,9 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-//import Ref from './hooks/Ref';
-//import FormikLogin from './formikLogin/FormikLogin';
-import BootstrapUI from './Designs/BootstrapUI';
-import 'bootstrap/dist/css/bootstrap.min.css';
+ 
+ 
  
 
 
@@ -11,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
  
 
 import reportWebVitals from './reportWebVitals';
-import App from './Routes/App';
+import Test from './Routes/Test';
  
  
  
@@ -22,7 +20,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Nofify/> */}
-    <App/>
+    <Test/>
     {/* <Ref/> */}
     {/* <App/> */}
     {/* <FormikLogin/> */}
