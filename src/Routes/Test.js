@@ -10,7 +10,7 @@ const Test = () => {
   },[val])
     
   return (
-    <div>Test Deployment</div>
+    <div>Test Deployment Done </div>
   )
 }
 
